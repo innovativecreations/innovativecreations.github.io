@@ -77,11 +77,6 @@ a{
     border: 1px solid #E0AC28;
     border-radius: 20px;
 }
-@media(max-width:500px){
-    .pic{
-        width:350px;
-    }
-}
 
 @media(max-width:500px){
     .pic{
