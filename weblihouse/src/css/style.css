@@ -54,3 +54,26 @@ h1 span{
     padding-top: 70px;
 }
 
+@media(max-width:1400px) {
+    iframe{
+        width:500px;
+    }
+}
+@media(max-width:650px){
+    iframe{
+        width:350px
+    }
+    .logo{
+        height:50px;
+    }
+    .intro-img img{
+        padding-top: 50px;
+    }
+}
+
+.copyright{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 1px 1px #0000006c;
+}
