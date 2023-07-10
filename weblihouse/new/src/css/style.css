@@ -112,16 +112,23 @@ input[type="text"] {
     margin: 0 auto;
     
   }
-
+  .orderService{
+    width: 300px;
+    border-radius: 15px;
+}
+.orderDetails{
+    text-align: center;
+}
 @media(max-width:700px){
     .content{
         width: 90%;
       }
 }
 @media(max-width:400px){
-    .content{
-        width: 95%;
-      }
+    .orderService{
+        width: 200px;
+        border-radius: 15px;
+    }
 }
 .menubg{
     background-image: url("../img/bg.jpeg");
