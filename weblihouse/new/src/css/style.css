@@ -11,7 +11,7 @@
 .box{
     position: absolute;
     margin: auto;
-      left: 0; 
+    left: 0; 
     right: 0; 
     top: 20%;
     margin: auto; 
@@ -105,16 +105,20 @@ input[type="text"] {
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   }
   .content{
-    position: relative  ;
+    position: relative;
     background-color: #fff;
-    padding: 50px 20px;
+    padding: 50px 10px;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
+
     
   }
   .orderService{
-    width: 300px;
+    width: 250px;
     border-radius: 15px;
+}
+.dabba{
+    height: 100vh;
 }
 .orderDetails{
     text-align: center;
@@ -138,4 +142,6 @@ input[type="text"] {
     position: fixed;
     /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
     z-index: -2;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
