@@ -34,42 +34,6 @@ h1.title{
     width:500px;
     height: 350px;
 } */
-@media (max-width:950px){
-
-    .box{
-        width:80%;
-    }
-}
-@media (max-width:700px){
-    .bg{
-        
-        background-image: url("../img/bg1.jpg");
-    }
-    .box{
-        width:80%;
-
-    }
-}
-@media (max-width:600px){
-
-    .box{
-        width:90%;
-    }
-}
-@media (max-width:400px){
-
-    .box{
-        width:90%;
-        padding: 20px;
-    }
-    h1{
-        font-size: 2.5rem;
-        font-weight: 600;
-    }
-    p{
-        font-size: 15px;
-    }
-}
 
 
 input[type="text"] {
@@ -119,17 +83,7 @@ input[type="text"] {
 .orderDetails{
     text-align: center;
 }
-@media(max-width:700px){
-    .content{
-        width: 90%;
-      }
-}
-@media(max-width:400px){
-    .orderService{
-        width: 200px;
-        border-radius: 15px;
-    }
-}
+
 .bg{
     background-image: url("../img/bg.jpeg");
     background-position: center;
@@ -143,4 +97,51 @@ input[type="text"] {
 }
 .menubg{
     background-image: url("../img/bg1.jpg");
+}
+@media(max-width:700px){
+    .content{
+        width: 90%;
+      }
+}
+@media(max-width:400px){
+    .orderService{
+        width: 200px;
+        border-radius: 15px;
+    }
+}
+@media (max-width:950px){
+
+    .box{
+        width:80%;
+    }
+}
+@media (max-width:700px){
+    .bg{
+        
+        background-image: url("../img/bg1.jpg");
+    }
+    .box{
+        width:80%;
+
+    }
+}
+@media (max-width:600px){
+
+    .box{
+        width:90%;
+    }
+}
+@media (max-width:400px){
+
+    .box{
+        width:90%;
+        padding: 20px;
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+    }
 }
