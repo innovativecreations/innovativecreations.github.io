@@ -1,0 +1,28 @@
+
+.content{
+    width: 100%;
+    max-width: 1000px;
+    
+}
+iframe{
+    min-width: 300px;
+}
+
+@media(min-width:600px){
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+}
+@media(min-width:900px){
+    iframe{
+        width: 600px;
+        height: 350px;
+    }
+}
+@media(min-width:1200px){
+    iframe{
+        width: 900px;
+        height: 550px;
+    }
+}
