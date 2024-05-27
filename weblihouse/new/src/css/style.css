@@ -1,7 +1,9 @@
 *{
     color: white;
 }
-
+.menuSection{
+    color:#000000;
+}
 .box{
     position: absolute;
     left: 0; 
@@ -37,6 +39,11 @@ h1.title{
     height: 350px;
 } */
 
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #afafaf;
+}
+
+
 
 input[type="text"] {
     text-align: center;
@@ -68,10 +75,11 @@ input[type="text"] {
   }
   .content{
     position: relative;
-    background-color: #fff;
+    background-color: #ffffffeb;
     padding: 50px 10px;
     width: 80%;
     margin: auto;
+    max-width: 600px;
 
     
   }
